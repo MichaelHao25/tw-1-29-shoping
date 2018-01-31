@@ -89,3 +89,9 @@ $('.main .shoping-car-step-two .invoice-data .btn-group a.dianzi').on('click', f
 $('.main .shoping-car-step-two .invoice-data .btn-group a.gift').on('click', function() {
 	$('.main .shoping-car-step-two .invoice-data .wrap').attr('hidden', '0');
 });
+
+
+$('.main .shoping-car .pay-mode .row .item').on('click', function() {
+	// console.log($(this).toggleClass('active').siblings())
+	$(this).toggleClass('active').siblings().removeClass('active');
+});

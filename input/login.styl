@@ -434,12 +434,90 @@
 				font-size 24px
 				color #fff
 				background #9a9a9a url(../img/arrow-right-white-round.png) right 10px center /25px 25px no-repeat
-
 	.success
 		padding 170px 0
 		text-align center
 		color #363535
 		line-height 2
+	.product-details
+		padding 0 60px
+		.base-info
+			.pic
+				img
+					display block
+					width 100%
+			.content
+				h3
+					font-size 36px
+					color #363535
+					line-height 2
+				p
+					font-size 36px
+					color #363535
+					&.id
+						padding-top 80px
+					span
+						text-decoration line-through
+						&+span
+							padding-left 95px
+						&.red
+							text-decoration none
+							color #f0053c
+		.size
+			padding 40px 0
+			select
+				width 300px
+				text-align center
+				background url(../img/drop-down.png) right 10px center/19px 17px no-repeat
+		.btn-group
+			padding 0 30px
+			a
+				display block
+				font-size 28px
+				color #fff
+				width 274px
+				height 70px
+				line-height 70px
+				text-align center
+				background #fb4876
+		.row
+			display -webkit-flex
+			display -moz-flex
+			display -ms-flex
+			display -o-flex
+			display flex
+			align-items center
+			justify-content space-between
+		.product-info-area
+			padding 10px 0
+			img
+				display block
+				width 100%
+	.page-control
+		margin-bottom 60px
+		padding 0 60px
+		display -webkit-flex
+		display -moz-flex
+		display -ms-flex
+		display -o-flex
+		display flex
+		align-items center
+		justify-content flex-end
+		font-size 20px
+		color #000
+		line-height 50px
+		.total
+			padding-right 10px
+		a
+			margin 0 10px
+			width 50px
+			height 50px
+			text-align center
+			transition 0.3s
+			&:hover
+			&.active
+				background #000
+				color #fff
 
 .back-order
 	position fixed
